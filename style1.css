@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fefefe;
+}
+
+/* Header Section */
+header {
+    background-color: #8b004d;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Price List Section */
+.price-list {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-list h2 {
+    color: #8b004d;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.price-images {
+    display: flex;
+    justify-content: space-between; /* Align images side by side */
+    flex-wrap: wrap; /* Allow images to wrap on smaller screens */
+    gap: 20px; /* Space between images */
+    width: 100%;
+    max-width: 1200px; /* Maximum width of the container */
+}
+
+.price-image {
+    width: 32%; /* 3 images side by side with a gap */
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.price-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
+/* Back Button */
+.back-button {
+    background-color: #8b004d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+.back-button:hover {
+    background-color: #ff6699;
+}
